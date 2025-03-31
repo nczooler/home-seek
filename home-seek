@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Seek - продажа недвижимости в вашем городе. Найдите идеальный дом с нами!">
+    <meta name="keywords" content="купить квартиру, продажа домов, недвижимость, Home Seek">
+    <meta name="author" content="Home Seek">
+    <title>Home Seek - Агентство недвижимости</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Home Seek - Ваш надежный партнер в мире недвижимости</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#blog">Блог</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="catalog">
+        <h2>Каталог недвижимости</h2>
+        <div class="property-list">
+            <article>
+                <img src="house1.jpg" alt="Квартира в центре">
+                <h3>Квартира в центре</h3>
+                <p>Цена: 10 500 000 ₽</p>
+                <a href="#">Подробнее</a>
+            </article>
+            <article>
+                <img src="house2.jpg" alt="Дом у моря">
+                <h3>Дом у моря</h3>
+                <p>Цена: 25 000 000 ₽</p>
+                <a href="#">Подробнее</a>
+            </article>
+        </div>
+    </section>
+    
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <ul>
+            <li>Покупка и продажа недвижимости</li>
+            <li>Юридическая поддержка</li>
+            <li>Помощь в оформлении ипотеки</li>
+        </ul>
+    </section>
+    
+    <section id="blog">
+        <h2>Полезные статьи</h2>
+        <article>
+            <h3>Как выбрать идеальную квартиру?</h3>
+            <p>Гид по покупке недвижимости для новичков.</p>
+            <a href="#">Читать далее</a>
+        </article>
+    </section>
+    
+    <section id="contact">
+        <h2>Свяжитесь с нами</h2>
+        <p>Телефон: +7 (900) 123-45-67</p>
+        <p>Email: info@homeseek.ru</p>
+        <form>
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Home Seek. Все права защищены.</p>
+    </footer>
+</body>
+</html>
